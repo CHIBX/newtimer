@@ -12,9 +12,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-    "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CHIBX/newtimer.git"
+  "repository": "https://github.com/chibx/newtimer",
+  "publishConfig": {
+    "@chibx:registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "timer",
