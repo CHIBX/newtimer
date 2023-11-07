@@ -1,0 +1,33 @@
+{
+  "name": "newtimer",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A powerful timer that works in the browser & all runtime environment",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+       "types":"./index.d.ts",
+       "import":"./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CHIBX/newtimer.git"
+  },
+  "keywords": [
+    "timer",
+    "async",
+    "time",
+    "timeEnd",
+    "timing",
+    "measure"
+  ],
+  "author": "Chiebidolu Chinaemerem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CHIBX/newtimer/issues"
+  },
+  "homepage": "https://github.com/CHIBX/newtimer#readme"
+}

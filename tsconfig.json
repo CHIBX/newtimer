@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ES2022",
+    "moduleResolution": "NodeNext",
+    "verbatimModuleSyntax": true,
+    "strict": true,
+    "esModuleInterop": false,
+    "declaration": true,
+    "sourceMap": true,
+    "declarationMap": true,
+    "noImplicitAny": true,
+    "allowJs": true,
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "esbuild": ["./node_modules/esbuild/lib/main.d.ts"]
+    }
+  },
+  "ts-node": {
+    "esm": true,
+  }
+}
